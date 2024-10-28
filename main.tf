@@ -1,6 +1,6 @@
 # Step 1 - Define the provider
 provider "aws" {
-  region = "us-east-1"
+  region = var.region
 }
 
 # Data source for availability zones in us-east-1
